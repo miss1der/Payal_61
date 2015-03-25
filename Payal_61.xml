@@ -1,1 +1,172 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat" id="26" inline="true" x="-11" y="-194">
+    <value name="TIMES">
+      <block type="math_number" id="43">
+        <field name="NUM">100000</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="36"></block>
+    </statement>
+    <next>
+      <block type="movement_right" id="245">
+        <next>
+          <block type="controls_repeat" id="60" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="102">
+                <field name="NUM">9999</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="movement_forward" id="95"></block>
+            </statement>
+            <next>
+              <block type="movement_rightmotor" id="194" inline="true">
+                <value name="MOVRIGHT">
+                  <block type="math_number" id="201">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_repeat" id="252" inline="true">
+                    <value name="TIMES">
+                      <block type="math_number" id="269">
+                        <field name="NUM">500</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="movement_forward" id="262"></block>
+                    </statement>
+                    <next>
+                      <block type="movement_left" id="279">
+                        <next>
+                          <block type="movement_right" id="53">
+                            <next>
+                              <block type="controls_repeat" id="208" inline="true">
+                                <value name="TIMES">
+                                  <block type="math_number" id="225">
+                                    <field name="NUM">1000</field>
+                                  </block>
+                                </value>
+                                <statement name="DO">
+                                  <block type="movement_forward" id="218"></block>
+                                </statement>
+                                <next>
+                                  <block type="movement_left" id="235">
+                                    <next>
+                                      <block type="controls_repeat" id="286" inline="true">
+                                        <value name="TIMES">
+                                          <block type="math_number" id="293">
+                                            <field name="NUM">100</field>
+                                          </block>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="movement_forward" id="303"></block>
+                                        </statement>
+                                        <next>
+                                          <block type="movement_stop" id="363">
+                                            <next>
+                                              <block type="multimedia_displaybmp" id="310">
+                                                <field name="BMP">Please may I have some CANDY for Mr.Stybak</field>
+                                                <next>
+                                                  <block type="robot_delay" id="321" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="328">
+                                                        <field name="NUM">3000000000</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="controls_repeat" id="344" inline="true">
+                                                        <value name="TIMES">
+                                                          <block type="math_number" id="380">
+                                                            <field name="NUM">100</field>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="DO">
+                                                          <block type="movement_reverse" id="373"></block>
+                                                        </statement>
+                                                        <next>
+                                                          <block type="movement_right" id="390">
+                                                            <next>
+                                                              <block type="controls_repeat" id="397" inline="true">
+                                                                <value name="TIMES">
+                                                                  <block type="math_number" id="404">
+                                                                    <field name="NUM">1000</field>
+                                                                  </block>
+                                                                </value>
+                                                                <statement name="DO">
+                                                                  <block type="movement_reverse" id="414"></block>
+                                                                </statement>
+                                                                <next>
+                                                                  <block type="movement_left" id="424">
+                                                                    <next>
+                                                                      <block type="movement_right" id="434">
+                                                                        <next>
+                                                                          <block type="controls_repeat" id="441" inline="true">
+                                                                            <value name="TIMES">
+                                                                              <block type="math_number" id="458">
+                                                                                <field name="NUM">500</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <statement name="DO">
+                                                                              <block type="movement_reverse" id="451"></block>
+                                                                            </statement>
+                                                                            <next>
+                                                                              <block type="movement_leftmotor" id="507" inline="true">
+                                                                                <value name="MOVLEFT">
+                                                                                  <block type="math_number" id="530">
+                                                                                    <field name="NUM">10</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="controls_repeat" id="537" inline="true">
+                                                                                    <value name="TIMES">
+                                                                                      <block type="math_number" id="554">
+                                                                                        <field name="NUM">9999</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <statement name="DO">
+                                                                                      <block type="movement_reverse" id="547"></block>
+                                                                                    </statement>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
