@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="26" inline="true" x="-11" y="-194">
+  <block type="controls_repeat" id="26" inline="true" x="-38" y="-185">
     <value name="TIMES">
       <block type="math_number" id="43">
         <field name="NUM">100000</field>
@@ -128,6 +128,27 @@
                                                                                     <statement name="DO">
                                                                                       <block type="movement_reverse" id="547"></block>
                                                                                     </statement>
+                                                                                    <next>
+                                                                                      <block type="movement_left" id="564">
+                                                                                        <next>
+                                                                                          <block type="controls_repeat" id="571" inline="true">
+                                                                                            <value name="TIMES">
+                                                                                              <block type="math_number" id="588">
+                                                                                                <field name="NUM">100000</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO">
+                                                                                              <block type="movement_reverse" id="581"></block>
+                                                                                            </statement>
+                                                                                            <next>
+                                                                                              <block type="multimedia_displaybmp" id="656">
+                                                                                                <field name="BMP">I am back from my mission here is the CANDY</field>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
                                                                                   </block>
                                                                                 </next>
                                                                               </block>
